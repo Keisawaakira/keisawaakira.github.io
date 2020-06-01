@@ -14,14 +14,14 @@
 		<span class='card_code card_info'>
 			<div class='card_date'>
 				<i class="fas fa-calendar-day fa-fw"></i>
-				<span><a href='https://keisawaakira.github.io/archive/'> 2020-5-3 </a></span>
+				<span><a href='https://keisawaakira.github.io/archive/'> 2020-6-1 </a></span>
 			</div>
 			<div class='card_view'>
 				<i class="fas fa-tag fa-fw"></i>
 				<span><a href='https://keisawaakira.github.io/tags/'> 网页相关 and js插件 </a></span>
 			</div>
 		</span>
-		<a href='https://keisawaakira.github.io/_posts/2020-05-03-pjax/'>
+		<a href='https://keisawaakira.github.io/_posts/2020-06-01-pjax/'>
 			<div class='card_title'>pjax实现网站无刷新化及遇到的无数坑</div>
 			<div class='card_text'>教你如何用pjax实现网站无刷新化及用pjax时本人遇上的一些坑</div>
 		</a>
