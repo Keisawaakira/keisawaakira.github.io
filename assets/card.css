@@ -1,0 +1,232 @@
+.card_background {
+    -webkit-filter: blur(10px) brightness(0.8);
+    filter: blur(10px) brightness(0.8);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    text-align: center;
+    z-index: -1;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+.card_text {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 15px;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 300;
+	font-size: 20px;
+}
+.card_title a {
+    color: #fff;
+}
+.card_title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    color: #fff;
+}
+.card_code {
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 500;
+    color: #fff;
+}
+.card {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    margin: 1rem auto;
+    box-shadow: var(--All_shadow);
+    margin-bottom: 4%;
+    background: #000;
+    line-height: 1.4;
+    border-radius: var(--All_radius);
+    overflow: hidden;
+    z-index: 0;
+    max-width: 850px;
+    height: 250px;
+    position: relative;
+    color: #fff;
+	border-radius: 16px;
+}
+.card.alt {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    flex-direction: row-reverse;
+}
+.card_background img {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    -webkit-filter: blur(10px) brightness(0.8);
+    filter: blur(30px) brightness(0.8);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    text-align: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.card:hover .card_photo {
+    -webkit-transform: scale(1.05) rotate(1deg);
+    transform: scale(1.05) rotate(1deg);
+}
+.card .card_photo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+}
+.card_photo img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.card .card_meta {
+    flex-basis: 40%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+.card_content {
+    position: relative;
+    margin: 0 20px;
+    align-self: center;
+    flex-basis: 60%;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+}
+.card_info {
+    zoom: 1;
+    overflow: hidden;
+    color: #fff;
+    font-size: 14px;
+    display: -webkit-box;
+    display: flex;
+}
+.card_info i, .card_code i {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: -1px;
+}
+.card_date {
+    -webkit-box-flex: 1;
+    flex: 1
+}
+.card_date a {
+	color: #fff
+}
+.card_view {
+    align-self: flex-end;
+}
+.card_view a {
+    color: #fff
+}
+@media screen and (max-width: 600px) {
+    .card::before {
+        content: '';
+        width: 100%;
+        height: 35%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.7)));
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00ffffff, endColorstr=#ffffff, GradientType=0);
+        overflow: hidden;
+        z-index: 2;
+        font-size: 0;
+    }
+    .card::after {
+        content: '';
+        width: 100%;
+        height: 25%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.45)), to(rgba(0, 0, 0, 0)));
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00ffffff, endColorstr=#ffffff, GradientType=0);
+        overflow: hidden;
+        z-index: 2;
+        font-size: 0;
+    }
+    .card .card_meta {
+        flex-basis: 100%;
+        -webkit-clip-path: unset !important;
+        clip-path: unset !important;
+    }
+    .card_text {
+        display: none;
+    }
+    .card_code, .card_title a, .card_view a, .card_text {
+        color: white !important;
+    }
+    .card {
+        height: 170px;
+        width: 95%;
+        margin: 30px auto !important
+    }
+    .card_content {
+        flex-basis: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+    .card_background img {
+        -webkit-filter: none;
+        filter: none;
+    }
+    .card_code {
+        font-size: 12px;
+        margin-top: 15px;
+        z-index: 3;
+        position: relative;
+    }
+    .card_title {
+        margin-bottom: 10px;
+        position: absolute;
+        bottom: 0;
+        z-index: 3;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+    }
+    .card_info i {
+        width: 12px;
+        height: 12px;
+    }
+    .card_title>a {
+        font-size: 20px;
+    }
+}
