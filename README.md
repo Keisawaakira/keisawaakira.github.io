@@ -28,6 +28,8 @@
 	</div>
 </div>
 
+<!-- slide -->
+
 <div class='card second' onmouseover='change(1);' onmouseout='back(1);'>
 	<div class='card_background'><img src='/assets/pixiv/88649893.jpg'></div>
 	<div class='card_meta'><div class='card_photo'><img src='/assets/pixiv/88649893.jpg' alt='Java中浮点数的精度研究'></div></div>
