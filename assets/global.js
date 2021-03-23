@@ -122,6 +122,7 @@ $(document).on('pjax:end', function(event){
 function change(flag){
   switch(flag){
 	  case 0:var x = $('.card.first img');break;
+          case 1:var x = $('.card.first img');break;
   }
   var i = 0;
   for(i;i < x.length;i++){
@@ -131,6 +132,7 @@ function change(flag){
 function back(flag){
   switch(flag){
 	  case 0:var x = $('.card.first img');break;
+	  case 1:var x = $('.card.second img');break;
   }
   var i = 0;
   for(i;i < x.length;i++){
