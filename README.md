@@ -28,6 +28,27 @@
 	</div>
 </div>
 
+<div class='card second' onmouseover='change(1);' onmouseout='back(1);'>
+	<div class='card_background'><img src='/assets/pixiv/88649893.jpg'></div>
+	<div class='card_meta'><div class='card_photo'><img src='/assets/pixiv/88649893.jpg' alt='Java中浮点数的精度研究'></div></div>
+	<div class='card_content'>
+		<span class='card_code card_info'>
+			<div class='card_date'>
+				<i class="fas fa-calendar-day fa-fw"></i>
+				<span><a href='https://keisawaakira.github.io/archive/'> 2021-3-23 </a></span>
+			</div>
+			<div class='card_view'>
+				<i class="fas fa-tag fa-fw"></i>
+				<span><a href='https://keisawaakira.github.io/tags/'> java and 浮点数 </a></span>
+			</div>
+		</span>
+		<a href='https://keisawaakira.github.io/_posts/2020-06-01-pjax/'>
+			<div class='card_title'>Java中浮点数的精度研究</div>
+			<div class='card_text'>学业繁忙，近来才刚有时间开始学java，其中又一次...</div>
+		</a>
+	</div>
+</div>
+
 <!-- slide vertical=true -->
 
 ## 学习进度
