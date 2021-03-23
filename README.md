@@ -44,7 +44,7 @@
 				<span><a href='https://keisawaakira.github.io/tags/'> java and 浮点数 </a></span>
 			</div>
 		</span>
-		<a href='https://keisawaakira.github.io/_posts/2020-06-01-pjax/'>
+		<a href='https://keisawaakira.github.io/_posts/2021-03-22-java/'>
 			<div class='card_title'>Java中浮点数的精度研究</div>
 			<div class='card_text'>学业繁忙，近来才刚有时间开始学java，其中又一次...</div>
 		</a>
