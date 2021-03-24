@@ -123,6 +123,7 @@ function change(flag){
   switch(flag){
 	  case 0:var x = $('.card.first img');break;
           case 1:var x = $('.card.second img');break;
+	  case 2:var x = $('.card.third img');break;
   }
   var i = 0;
   for(i;i < x.length;i++){
@@ -133,6 +134,7 @@ function back(flag){
   switch(flag){
 	  case 0:var x = $('.card.first img');break;
 	  case 1:var x = $('.card.second img');break;
+	  case 2:var x = $('.card.third img');break;
   }
   var i = 0;
   for(i;i < x.length;i++){
