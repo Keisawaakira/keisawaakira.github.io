@@ -53,7 +53,7 @@
 
 <!-- slide -->
 
-<div class='card second' onmouseover='change(2);' onmouseout='back(2);'>
+<div class='card third' onmouseover='change(2);' onmouseout='back(2);'>
 	<div class='card_background'><img src='/assets/pixiv/88680349.png'></div>
 	<div class='card_meta'><div class='card_photo'><img src='/assets/pixiv/88680349.png' alt='float转double的误差分析'></div></div>
 	<div class='card_content'>
