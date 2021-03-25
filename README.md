@@ -51,27 +51,6 @@
 	</div>
 </div>
 
-<div class='card third' onmouseover='change(2);' onmouseout='back(2);'>
-	<div class='card_background'><img src='/assets/pixiv/88680349.png'></div>
-	<div class='card_meta'><div class='card_photo'><img src='/assets/pixiv/88680349.png' alt='float转double的误差分析'></div></div>
-	<div class='card_content'>
-		<span class='card_code card_info'>
-			<div class='card_date'>
-				<i class="fas fa-calendar-day fa-fw"></i>
-				<span><a href='https://keisawaakira.github.io/archive/'> 2021-3-25 </a></span>
-			</div>
-			<div class='card_view'>
-				<i class="fas fa-tag fa-fw"></i>
-				<span><a href='https://keisawaakira.github.io/tags/'> java and 浮点数 </a></span>
-			</div>
-		</span>
-		<a href='https://keisawaakira.github.io/_posts/2021-03-25-java/'>
-			<div class='card_title'>float转double的误差分析</div>
-			<div class='card_text'>上篇博客对Java中浮点数的精度进行了研究，但是只研究了float和double本身的情况，那么如果它们之间互相转换，精度又会如何呢？</div>
-		</a>
-	</div>
-</div>
-
 <!-- slide vertical=true -->
 
 ## 学习进度
