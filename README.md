@@ -73,7 +73,6 @@
 		</a>
 	</div>
 </div>
-
 <!-- slide vertical=true -->
 
 ## 学习进度
