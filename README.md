@@ -51,7 +51,7 @@
 	</div>
 </div>
 
-
+<!-- slide -->
 
 <div class='card third' onmouseover='change(2);' onmouseout='back(2);'>
 	<div class='card_background'><img src='/assets/pixiv/88680349.png'></div>
